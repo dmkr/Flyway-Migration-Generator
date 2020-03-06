@@ -47,6 +47,8 @@ For an insecure install, type the following (not recommended):
 
 ## Usage
 
+flywayMigrator generate -n <NAME OF MIGRATION>
+
 ## Tests
 
 To test, run:
