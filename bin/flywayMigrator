@@ -1,0 +1,9 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "flyway_migrator"
+require "flyway_migrator/cli"
+require "flyway_migrator/identity"
+
+Process.setproctitle FlywayMigrator::Identity.version_label
+FlywayMigrator::CLI.start
