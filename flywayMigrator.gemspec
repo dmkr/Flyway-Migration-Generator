@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["David Mkrtchyan"]
   spec.email = ["damkrtchyan@yahoo.com"]
-  spec.homepage = ""
+  spec.homepage = "https://github.com/dmkr/Flyway-Migration-Generator"
   spec.summary = ""
   spec.license = "MIT"
 
